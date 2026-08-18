@@ -12,7 +12,7 @@ local Settings = settings()
 
 --Descarga de imagenes para la interfaz
 local links = {
-    ["apex.png"] = "https://i.ibb.co/hJkfpMPW/1000295804.jpg"
+    ["Brawl.png"] = "https://i.ibb.co/PsyvG8fD/file-000000009f20820ea65920c0decedc78.png"
 }
 
 --Descargar imagen automaticamente si no existe
