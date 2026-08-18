@@ -12,7 +12,7 @@ local Settings = settings()
 
 --Descarga de imagenes para la interfaz
 local links = {
-    ["Brawl.png"] = "https://i.ibb.co/PsyvG8fD/file-000000009f20820ea65920c0decedc78.png"
+    ["ApexBrawl.png"] = "https://i.ibb.co/PsyvG8fD/file-000000009f20820ea65920c0decedc78.png"
 }
 
 --Descargar imagen automaticamente si no existe
@@ -23,7 +23,7 @@ for nombre, link in pairs(links) do
 end
 
 --Cargar imagen para la GUI
-local imgApex = getcustomasset("apex.jpg")
+local imgApex = getcustomasset("ApexBrawl.png")
 
 --Evitar desconexion por inactividad
 LocalPlayer.Idled:Connect(function()
